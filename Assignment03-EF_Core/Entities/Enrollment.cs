@@ -13,4 +13,5 @@ public class Enrollment
     public decimal ProgressPercentage { get; set; }
     public EnrollmentStatus Status { get; set; }
     public decimal? FinalGrade { get; set; }
+
 }
