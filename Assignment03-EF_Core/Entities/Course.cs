@@ -19,4 +19,5 @@ public class Course
     public Category Category { get; set; }
 
     public ICollection<Enrollment> Enrollments { get; set; }
+
 }
