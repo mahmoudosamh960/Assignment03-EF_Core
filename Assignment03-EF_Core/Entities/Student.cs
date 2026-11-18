@@ -8,4 +8,5 @@ public class Student
     public DateTime DateOfBirth { get; set; }
 
     public ICollection<Enrollment> Enrollments { get; set; }
+
 }
