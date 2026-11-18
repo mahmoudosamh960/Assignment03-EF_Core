@@ -34,4 +34,5 @@ public class CourseConfiguration : IEntityTypeConfiguration<Course>
             .WithMany(c => c.Courses)
             .HasForeignKey(c => c.CategoryId);
     }
+
 }
