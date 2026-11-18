@@ -21,4 +21,5 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
         builder.Property(s => s.DateOfBirth)
             .IsRequired();
     }
+
 }
