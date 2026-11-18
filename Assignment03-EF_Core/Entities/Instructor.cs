@@ -9,4 +9,5 @@ public class Instructor
     public DateTime JoinedDate { get; set; }
 
     public ICollection<Course> Courses { get; set; }
+
 }
