@@ -32,4 +32,5 @@ public class EnrollmentConfiguration : IEntityTypeConfiguration<Enrollment>
             .HasForeignKey(e => e.CourseId)
             .OnDelete(DeleteBehavior.Cascade);
     }
+
 }
