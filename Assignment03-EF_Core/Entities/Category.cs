@@ -11,4 +11,5 @@ public class Category
 
     public ICollection<Category> SubCategories { get; set; }
     public ICollection<Course> Courses { get; set; }
+
 }
