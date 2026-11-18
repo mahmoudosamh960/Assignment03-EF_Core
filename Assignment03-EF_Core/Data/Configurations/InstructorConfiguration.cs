@@ -24,4 +24,5 @@ public class InstructorConfiguration : IEntityTypeConfiguration<Instructor>
         builder.Property(i => i.JoinedDate)
             .IsRequired();
     }
+
 }
